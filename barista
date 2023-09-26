@@ -1,0 +1,36 @@
+print("Barista: ")
+print("Olá, bem vindo ao Kellas Café!!!!!!!!!!\n")
+
+print("Barista: ")
+name = input("Qual é o seu nome?\nR: ")
+
+print("\n")
+print(name + ": ")
+print("Meu nome é " + name + ".\n")
+
+print("Barista: ")
+print("Olá " + name + ", muito obrigada por ter vindo hoje!!!!!!\n")
+
+print(name + ":\n:)\n")
+
+custo = "14"
+actual_custo = int(custo)
+
+menu = "Kespresso = R$" +custo+ "\nKellas Coado = R$" +custo+"\nIced Kell = R$" +custo+"\nCaféllas com Leite = R$" +custo+"\nLlasguccino = R$" +custo+"\nVeganccino K = R$" +custo+"\n \n"
+
+print("Barista: ")
+print("Qual você quer tomar hoje, " + name + "?\n\nNo nosso menu, temos:\n \n" + menu)
+
+pedido = input("R: ")
+
+print(name + ": ")
+print("Eu quero " + pedido + ", por favor :)")
+
+
+print("\n\nBarista: ")
+print("Perfeito, " + name + "! :)\n"+ pedido +" sendo preparado especialmente pra você :D\nO preço fica R$" +custo+ "\nQual seria a forma de pagamento?\n\n")
+
+forma_de_pagamento = input("R: ")
+
+print(name + ": ")
+print(forma_de_pagamento + "! :)")
